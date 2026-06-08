@@ -17,4 +17,5 @@ const Pelicula = sequelize.define('Pelicula', {
   }
 });
 
+
 module.exports = Pelicula;
