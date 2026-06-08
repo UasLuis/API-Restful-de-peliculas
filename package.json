@@ -1,35 +1,16 @@
 {
-<<<<<<< HEAD
-  "name": "ejercicio2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.2.1",
-    "sequelize": "^6.37.8",
-    "sqlite3": "^5.1.6"
-  }
-}
-=======
   "name": "api-restful-de-peliculas",
   "version": "1.0.0",
+  "description": "API de peliculas",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "postinstall": "npm rebuild sqlite3"
   },
   "dependencies": {
-    "express": "^5.2.1",
-    "sequelize": "^6.37.8",
-    "sqlite3": "^6.0.1"
+    "express": "^4.18.2",
+    "sequelize": "^6.37.0",
+    "sqlite3": "^5.1.6"
   }
 }
 
->>>>>>> f625271514b989c0568842164e0d313eeaecad3f
